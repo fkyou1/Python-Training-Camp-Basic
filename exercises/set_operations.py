@@ -20,4 +20,8 @@ def student_set_operations(set1, set2, operation):
     - 集合操作的结果
     """
     # 请在下方编写代码
+    if operation == "union":
+        set1 = set1.union(set2)
+    if operation == "intersection":
+        set1 = set1
     pass
