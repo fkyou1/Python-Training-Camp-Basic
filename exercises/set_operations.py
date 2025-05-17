@@ -21,7 +21,9 @@ def student_set_operations(set1, set2, operation):
     """
     # 请在下方编写代码
     if operation == "union":
-        set1 = set1.union(set2)
+        return set1.union(set2)
     if operation == "intersection":
-        set1 = set1
-    pass
+        return set1.intersection(set2)
+    if operation == "difference":
+        return set1.difference(set2)
+
